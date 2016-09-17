@@ -1,7 +1,7 @@
 #Robotics_Demo
 
 ##Introduction:
-The main purpose of this demonstration is to recognize color patches on the cars and ball, and find a path by A* algorithm.
+The main purpose of this demonstration is to recognize color patches on the cars and ball, and find a path by A* algorithm in further.
 
 ##Procedure:
 1. Recognizing color patches  
