@@ -33,6 +33,6 @@ Output: 48x64 Binary Image
 Input: pic_b(48x64 map image), start point, target point, structuring element  
 Output: path bank (2xN) matrix  
 
-##Reference:
-[A* Pathfinding for Beginner](http://www.policyalmanac.org/games/aStarTutorial.htm)
+##Reference:  
+More detail about A* algorithm: [A* Pathfinding for Beginner](http://www.policyalmanac.org/games/aStarTutorial.htm)
 
