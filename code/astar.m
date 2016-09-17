@@ -1,3 +1,6 @@
+%% A* algorithm
+%% Input: pic_b(48x64 map image), centroid(start) point, target point, structuring element 
+%% Output: path bank (2xN) matrix
 function pathBank = astar(pic_b, centroid, target, se)
 
 % declare constant

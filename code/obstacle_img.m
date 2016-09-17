@@ -1,4 +1,10 @@
-function pic_b = obstacle_img(pic_b, centroid_1, centroid_2)
+%% Creating map for A* alogrithm
+%% Input: Color patches' centroid point
+%% Output: 48x64 Binary Image
+function pic_b = obstacle_img(centroid_1, centroid_2)
+
+% create a empty map
+pic_b = zeros(48,64);
 
 % bump location
 bump = [23, 32];
@@ -27,7 +33,5 @@ pic_b(1:19,64) = 1;
 pic_b(29:48,64) = 1;
 pic_b(1,:) = 1;
 pic_b(48,:) = 1;
-
-
 
 end
